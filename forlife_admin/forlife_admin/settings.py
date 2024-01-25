@@ -62,7 +62,7 @@ WSGI_APPLICATION = 'forlife_admin.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': config('NAME_DB'),
         'USER': config('USER_DB'),
         'PASSWORD': config('PASSWORD_DB'),
