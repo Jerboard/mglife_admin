@@ -1,0 +1,149 @@
+INFO:django.utils.autoreload:C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\logger.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\logger.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\logger.py changed, reloading.
+WARNING:django.request:Forbidden: /api/v1/update_users
+WARNING:django.request:Forbidden: /api/v1/update_users
+INFO:django.utils.autoreload:C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\logger.py changed, reloading.
+INFO:root:2023-12-20 16:17:10.550021 o n: <QueryDict: {'key': ['ShEa4jsgdwhqO1oW9yGhSqBU'], 'gc_id': ['277'], 'list_id': ['332524'], 'email': ['dt@mail.com'], 'add_user': ['1'], 'full_pay': ['1']}>
+Invalid list ID  332524
+WARNING:django.request:Forbidden: /api/v1/update_users
+INFO:django.utils.autoreload:C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py changed, reloading.
+INFO:root:2023-12-20 21:37:15.890266 o n: Invalid request method
+WARNING:django.request:Bad Request: /api/v1/update_users
+INFO:django.utils.autoreload:C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /api/v1/update_users
+Traceback (most recent call last):
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'key'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py", line 18, in api_view
+    if data['key'] != API_KEY:
+       ~~~~^^^^^^^
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'key'
+INFO:django.utils.autoreload:C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py changed, reloading.
+INFO:root:2023-12-20 21:39:14.801129 o n: <QueryDict: {'key': ['ShEa4jsgdwhqO1oW9yGhSqBU'], 'gc_id': ['277'], 'list_id': ['3325243'], 'email': ['dt@mail.com'], 'add_user': ['1'], 'full_pay': ['1']}>
+user gc 277 added
+INFO:django.utils.autoreload:C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py changed, reloading.
+INFO:root:2023-12-21 21:53:32.297338 o n: <QueryDict: {'key': ['ShEa4jsgdwhqO1oW9yGhSqBU'], 'gc_id': ['2277'], 'list_id': ['3325243'], 'email': ['dtd3ddd@mail.com'], 'add_user': ['1'], 'full_pay': ['1']}>
+user gc 2277 added
+INFO:django.utils.autoreload:C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\bot.py changed, reloading.
+INFO:root:2023-12-21 21:56:09.898686 o n: <QueryDict: {'key': ['ShEa4jsgdwhqO1oW9yGhSqBU'], 'gc_id': ['2277'], 'list_id': ['3325243'], 'email': ['dtd3ddd@mail.com'], 'add_user': ['1'], 'full_pay': ['1']}>
+user gc 2277 added
+INFO:django.utils.autoreload:C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py changed, reloading.
+INFO:root:2023-12-21 21:57:27.541401 o n: <QueryDict: {'key': ['ShEa4jsgdwhqO1oW9yGhSqBU'], 'gc_id': ['2277'], 'list_id': ['3325243'], 'email': ['dtd3ddd@mail.com'], 'add_user': ['1'], 'full_pay': ['1']}>
+user gc 2277 added
+ERROR:django.request:Internal Server Error: /api/v1/update_users
+Traceback (most recent call last):
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py", line 29, in api_view
+    user = User.objects.get(gc_id=int(data['gc_id']))#.first()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.MultipleObjectsReturned(
+admin_bot.models.User.MultipleObjectsReturned: get() returned more than one User -- it returned 4!
+INFO:django.utils.autoreload:C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /api/v1/update_users
+Traceback (most recent call last):
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py", line 34, in api_view
+    send_gold_list(user.user_id)
+                   ^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'user_id'
+INFO:django.utils.autoreload:C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /api/v1/update_users
+Traceback (most recent call last):
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py", line 34, in api_view
+    send_gold_list(user.tg_id)
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\bot.py", line 31, in send_gold_list
+    bot.unban_chat_member (
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\telebot\__init__.py", line 2945, in unban_chat_member
+    return apihelper.unban_chat_member(self.token, chat_id, user_id, only_if_banned)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\telebot\apihelper.py", line 971, in unban_chat_member
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\telebot\apihelper.py", line 164, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\telebot\apihelper.py", line 191, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+INFO:django.utils.autoreload:C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\bot.py changed, reloading.
+ERROR:django.request:Internal Server Error: /api/v1/update_users
+Traceback (most recent call last):
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py", line 37, in api_view
+    save_log (f'{data}\nstatus user {user.user_id} updated')
+                                     ^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'user_id'
+INFO:django.utils.autoreload:C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /api/v1/update_users
+Traceback (most recent call last):
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py", line 29, in api_view
+    user = User.objects.filter(gc_id=int(data['gc_id'])).first()
+                                     ^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '{object.uid}'
+INFO:django.utils.autoreload:C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py changed, reloading.
+WARNING:django.request:Forbidden: /api/v1/update_users
+ERROR:django.request:Internal Server Error: /api/v1/update_users
+Traceback (most recent call last):
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py", line 44, in api_view
+    return JsonResponse ({'info': f'user already exist {user.tg_id}'}, status=200)
+                                                        ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'tg_id'
+INFO:django.utils.autoreload:C:\Users\dgush\PycharmProjects\magirani\4magiclife_django\forlife_admin\admin_bot\views.py changed, reloading.
+INFO:root:2023-12-23 11:19:31.876319 o n: <QueryDict: {'key': ['ShEa4jsgdwhqO1oW9yGhSqBU'], 'gc_id': ['456'], 'list_id': ['3297203'], 'email': ['{object.email}'], 'add_user': ['1'], 'full_pay': ['1']}>
+user gc 456 added
